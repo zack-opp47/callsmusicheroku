@@ -7,7 +7,7 @@ RUN curl -sL https://deb.nodesource.com/setup_15.x | bash -
 RUN apt-get install -y nodejs
 RUN npm i -g npm
 RUN cd / && \
-    git clone https://github.com/zack-opp47/callsmusic smp && \
+    git clone https://github.com/agung267/Anjani smp && \
     cd smp/ && \
     rm -r .git && \
     pip3 install -r requirements.txt
